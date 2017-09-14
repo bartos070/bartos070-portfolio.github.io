@@ -1,0 +1,49 @@
+@media all and (max-width 100px) {
+    
+}
+
+@media all and (max-width: 768px) {
+/*    NAWIGACJA*/
+    #main-nav .toggle {
+        display: block;
+        background-color: #FFFFFF;
+        padding: 0 20px;
+        color: #1AC056;
+        line-height: 50px; /*centruje napis pionowo względem wysokości nav*/
+        text-align: right;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav #drop:checked + ul {
+        display: block;
+    }
+    
+    #main-nav ul {
+        background-color: #FFFFFF;
+    }
+    
+    #main-nav ul li {
+        display: block;
+    }
+    
+    #main-nav ul li a {
+        color: #1AC056;
+    }
+/*    o mnie*/
+    #about .floated,
+    #about .floated img {
+        width: 100%;
+    }
+    #about .floated img {
+        max-height: initial;
+    }
+/*    portfolio  */
+    #portfolio .portfolio-item {
+        width: 100%;
+    }
+    #portfolio .portfolio-data,
+    #portfolio .portfolio-
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- czcionki szukamy na fonts.google - podpinamy jako linki w html lub import w css -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- mozna tez sciagnac cala czczionke lokalnie do projektu, wtedy w css MUSIMY ustawic regule @font-face -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/responsive.css">-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/">
+</head>
+
+<body>
+    <!--menu nawigacyjne początek-->
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- zminiłem container-fluid na zwykły container -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-glowne" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="menu-glowne">
+
+
+                <ul class="nav navbar-nav navbar-right" id="linki-nawigacyjne">
+                    <li><a href="#about">o mnie</a></li>
+                    <li><a href="#skills">umiejetnosci</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--menu nawigacyjne koniec-->
+    <!--nagłówek-->
+    <header id="main-header">
+        <div class="header-caption">
+            <h1>Bartosz <span>Jastrzębski</span></h1>
+            <h2>front-end developer</h2>
+        </div>
+    </header>
+
+
+    <!--O mnie-->
+    <section id="about">
+        <div class="container">
+
+            <div class="row">
+                <h2 id="naglowek">O <span>mnie</span></h2>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-6 about-img-container">
+                    <img src="img/jan-nowak.jpg" alt="moja fotka" class="img-responsive about-img">
+                </div>
+
+                <div class="col-sm-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ad nesciunt repudiandae aliquam voluptatum minus odit nobis fugit quaerat id repellat illum quia quisquam, magni laborum iste commodi fugiat architecto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--umiejętności-->
+    <section id="skills">
+        <div class="contaner">
+            <div class="row">
+                <h2>Moje <span>umiejętności</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aliquid, enim laboriosam reiciendis atque minima ipsum a, suscipit, unde ea, quidem ex velit doloremque aut quibusdam delectus amet optio consectetur?</p>
+            </div>
+
+
+            <div class="row">
+
+
+                <figure class="col-sm-3 col-xs-6 center">
+                    <img src="icons/html5.png" alt="html5">
+                    <figcaption>html5</figcaption>
+                </figure>
+                <figure class="col-sm-3 col-xs-6 center">
+                    <img src="icons/css3.png" alt="css3">
+                    <figcaption>css3</figcaption>
+                </figure>
+                <figure class="col-sm-3 col-xs-6 center">
+                    <img src="icons/jquery.png" alt="jquery">
+                    <figcaption>jquery</figcaption>
+                </figure>
+                <figure class="col-sm-3 col-xs-6 center">
+                    <img src="icons/js.png" alt="javascript">
+                    <figcaption>javascript</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <!--portfolio-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2>Moje <span>portfolio</span></h2>
+            </div>
+            <div class="row">
+                <div class="portfolio-item col-md-4 col-sm-6" id="image_1">
+                    <div class="portfolio-item-mask">
+                        <div class="portfolio-item-border">
+                            <div class="portfolio-item-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel libero earum ratione magnam ab ex iure unde placeat aliquid, nisi commodi nobis ad natus, eligendi eum, repellat porro sint. Officia!</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item col-md-4 col-sm-6" id="image_2">
+                    <div class="portfolio-item-mask">
+                        <div class="portfolio-item-border">
+                            <div class="portfolio-item-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel libero earum ratione magnam ab ex iure unde placeat aliquid, nisi commodi nobis ad natus, eligendi eum, repellat porro sint. Officia!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-item col-md-4 col-sm-12" id="image_3">
+                    <div class="portfolio-item-mask">
+                        <div class="portfolio-item-border">
+                            <div class="portfolio-item-content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel libero earum ratione magnam ab ex iure unde placeat aliquid, nisi commodi nobis ad natus, eligendi eum, repellat porro sint. Officia!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-data">
+                    <h2>Bartosz <span>Jastrzębski</span></h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12 center">
+                        <adress>
+                            ul. Mostowa 6/13<br> 31-061 Kraków<br> tel: 666-666-666<br> email: <a href="bartus.jastzebski@gmail.com">example</a>
+                        </adress>
+                    </div>
+
+
+
+                    <!--                    <div id="contact-social-icons col-sm-6">
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-google-plus"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                    </div>-->
+
+                    <div class="contact-form col-sm-6 col-xs-12 center">
+                        <form action="">
+                            <input type="text" name="name" placeholder="imię i nazwisko">
+                            <input type="text" name="email" placeholder="Adres e-mail">
+                            <textarea name="message" placeholder="wiadomość" id=""></textarea>
+                            <input type="sumbit" value="Wyślij">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>copyright &copy;Bartosz Jastrzębski</p>
+    </footer>
+
+
+    <!-- jQuery library -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!-- bootstrap scripts -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
